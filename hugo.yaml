@@ -1,27 +1,73 @@
-baseURL: https://peterjiang.me/
-languageCode: en-us
-title: Peter Jiang
-theme: ["PaperMod"]
+baseURL: 'https://www.peterjiang.me/'
+languageCode: 'en-us'
+title: 'Peter Jiang'
+theme: 'ananke'
 
 caches:
   images:
     dir: :cacheDir/images
 
 params:
-  profileMode:
-    enabled: true
-    title: "Peter Jiang" # optional default will be site title
-    subtitle: "Software Developer"
-    imageUrl: "images/logo-beta1_black-1.jpg" # optional
-    imageTitle: "<PeterJiang Logo>" # optional
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
-    buttons:
-      - name: Archive
-        url: "/archive"
-      - name: Github
-        url: "https://github.com/geniuspeterjiang"
+  description: 'Software / Front-end / Mobile App Developer'
+  favicon: '/favicon.ico'
+  showFullText: true
+  showReadingTime: false
+  showPostNavLinks: true
+  showShareButtons: true
+  showRelatedPosts: true
+  showDate: true
+  showAuthor: false
+  showWordCount: true
+  showRssButtonInSectionTermList: true
+  showAllPagesInArchive: true
+  showPageNumbers: true
+  showTaxonomyCounts: true
+  showTaxonomyTerms: true
+  showTaxonomyTermsInList: true
+  showTaxonomyTermsInSingle: true
+  showTaxonomyTermsInSection: true
+  showTaxonomyTermsInTaxonomy: true
+  showTaxonomyTermsInTerm: true
+  showTaxonomyTermsInHome: true
+  showTaxonomyTermsIn404: true
+  showTaxonomyTermsInRSS: true
+  showTaxonomyTermsInSitemap: true
+  showTaxonomyTermsInRobots: true
+  showTaxonomyTermsInHumans: true
+  showTaxonomyTermsInSecurity: true
+  showTaxonomyTermsInCSP: true
+  showTaxonomyTermsInHeaders: true
+  showTaxonomyTermsInFooters: true
+  showTaxonomyTermsInSidebars: true
+  showTaxonomyTermsInNavbars: true
+  showTaxonomyTermsInBreadcrumbs: true
+  showTaxonomyTermsInPagination: true
+  showTaxonomyTermsInSearch: true
 
-  socialIcons: # optional
-    - name: "Instagram"
-      url: "https://instagram.com/geniuspeter"
+menu:
+  main:
+    - identifier: home
+      name: Home
+      url: /
+      weight: 1
+    - identifier: education
+      name: Education
+      url: /#education
+      weight: 2
+    - identifier: projects
+      name: Projects
+      url: /#projects
+      weight: 3
+    - identifier: about
+      name: About
+      url: /#about
+      weight: 4
+    - identifier: contact
+      name: Contact
+      url: /contact
+      weight: 5
+    - identifier: resume
+      name: Resume
+      url: /resume
+      weight: 6
+
