@@ -68,5 +68,5 @@ Leader of team of seven
 
 ### Personal Info
 - +1 (323) 301-3957
-- [peterjiang.me@gmail.com](mailto:peterjiang.me@gmail.com)
+- [i@peterjiang.me](mailto:i@peterjiang.me)
 - [PeterJiang.me](https://www.peterjiang.me) 

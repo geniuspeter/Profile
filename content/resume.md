@@ -74,6 +74,6 @@ Award: Third-class Scholarship of SCUT (2013-2014)
 
 ## Contact
 
-- Email: [peterjiang.me@gmail.com](mailto:peterjiang.me@gmail.com)
+- Email: [i@peterjiang.me](mailto:i@peterjiang.me)
 - Phone: +1 (323) 301-3957
 - Website: [PeterJiang.me](https://www.peterjiang.me) 
