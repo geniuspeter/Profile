@@ -1,5 +1,27 @@
-baseURL: https://example.org/
+baseURL: https://peterjiang.me/
 languageCode: en-us
-title: My New Hugo Site
+title: Peter Jiang
 theme: ["PaperMod"]
 
+caches:
+  images:
+    dir: :cacheDir/images
+
+params:
+  profileMode:
+    enabled: true
+    title: "Peter Jiang" # optional default will be site title
+    subtitle: "Software Developer"
+    imageUrl: "images/logo-beta1_black-1.jpg" # optional
+    imageTitle: "<PeterJiang Logo>" # optional
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Archive
+        url: "/archive"
+      - name: Github
+        url: "https://github.com/geniuspeterjiang"
+
+  socialIcons: # optional
+    - name: "Instagram"
+      url: "https://instagram.com/geniuspeter"
