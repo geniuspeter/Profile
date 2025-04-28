@@ -37,12 +37,10 @@ params:
   #   Content: "Software Developer"
   # mainSections: ["posts", "content"]
   socialIcons:
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/peterjiangsde"
     - name: "github"
       url: "https://github.com/geniuspeterjiang"
-    - name: "twitter"
-      url: "https://twitter.com/geniuspeter"
-    - name: "linkedin"
-      url: "https://www.linkedin.com/in/peterjiang"
 
   fuseOpts:
     isCaseSensitive: false
