@@ -1,48 +1,58 @@
 baseURL: 'https://www.peterjiang.me/'
 languageCode: 'en-us'
 title: 'Peter Jiang'
-theme: 'ananke'
+theme: 'PaperMod'
 
 caches:
   images:
     dir: :cacheDir/images
 
 params:
-  description: 'Software / Front-end / Mobile App Developer'
-  favicon: '/favicon.ico'
-  showFullText: true
-  showReadingTime: false
-  showPostNavLinks: true
-  showShareButtons: true
-  showRelatedPosts: true
-  showDate: true
-  showAuthor: false
-  showWordCount: true
-  showRssButtonInSectionTermList: true
-  showAllPagesInArchive: true
-  showPageNumbers: true
-  showTaxonomyCounts: true
-  showTaxonomyTerms: true
-  showTaxonomyTermsInList: true
-  showTaxonomyTermsInSingle: true
-  showTaxonomyTermsInSection: true
-  showTaxonomyTermsInTaxonomy: true
-  showTaxonomyTermsInTerm: true
-  showTaxonomyTermsInHome: true
-  showTaxonomyTermsIn404: true
-  showTaxonomyTermsInRSS: true
-  showTaxonomyTermsInSitemap: true
-  showTaxonomyTermsInRobots: true
-  showTaxonomyTermsInHumans: true
-  showTaxonomyTermsInSecurity: true
-  showTaxonomyTermsInCSP: true
-  showTaxonomyTermsInHeaders: true
-  showTaxonomyTermsInFooters: true
-  showTaxonomyTermsInSidebars: true
-  showTaxonomyTermsInNavbars: true
-  showTaxonomyTermsInBreadcrumbs: true
-  showTaxonomyTermsInPagination: true
-  showTaxonomyTermsInSearch: true
+  env: production
+  description: 'Software Developer'
+  keywords: ['Software Developer', 'Front-end Developer', 'Mobile App Developer', 'Back-end Developer', 'Full-stack Developer']
+  author: 'Peter Jiang'
+  defaultTheme: 'auto'
+  ShowReadingTime: false
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  profileMode:
+    enabled: true
+    title: "Peter Jiang"
+    subtitle: "Software Developer"
+    imageUrl: "images/logo-beta1_black-1.jpg"
+    imageTitle: "PeterJiang Logo"
+    # buttons:
+    #   - name: Blog
+    #     url: "https://blog.peterjiang.me"
+    #   - name: XLab
+    #     url: "https://x.peterjiang.me"
+  # homeInfoParams:
+  #   Title: "Peter Jiang"
+  #   Content: "Software Developer"
+  # mainSections: ["posts", "content"]
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/geniuspeterjiang"
+    - name: "twitter"
+      url: "https://twitter.com/geniuspeter"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/in/peterjiang"
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
 
 menu:
   main:
@@ -52,22 +62,32 @@ menu:
       weight: 1
     - identifier: education
       name: Education
-      url: /#education
+      url: /education
       weight: 2
     - identifier: projects
       name: Projects
-      url: /#projects
+      url: /projects
       weight: 3
     - identifier: about
       name: About
-      url: /#about
+      url: /about
       weight: 4
-    - identifier: contact
-      name: Contact
-      url: /contact
-      weight: 5
     - identifier: resume
       name: Resume
       url: /resume
+      weight: 5
+    - identifier: search
+      name: Search
+      url: /search
       weight: 6
 
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+# markup:
+#   goldmark:
+#     renderer:
+#       unsafe: true

@@ -1,30 +1,7 @@
 ---
-title: "Peter Jiang"
-description: "Software / Front-end / Mobile App Developer"
+title: "Projects"
+# description: "Projects"
 ---
-
-## Peter Jiang
-
-Software Developer
-
-[Contact Me](/contact) | [Blog](https://blog.peterjiang.me) | [XLab](https://x.peterjiang.me) | [RESUME](/resume)
-
-## Education
-
-### Rutgers, the State University of New Jersey
-USA  
-Graduation: Dec 2017 - GPA: 3.9   
-MS in Electrical and Computer Engineering  
-Concentration: Computer Engineering
-
-### South China University of Technology
-P.R.China  
-Sep 2011 – July 2015   
-BS in Engineering  
-Concentration: Automation   
-Award: Third-class Scholarship of SCUT (2013-2014)
-
-## Projects
 
 ### Online Stock Tracking and Predicting System, Rutgers
 **Jan 2016 – May 2016**
@@ -62,11 +39,4 @@ Leader of team of three
 
 Leader of team of seven
 - Designed the circuit diagram with the combination of C51 single-chip machine and LED driver circuit; controlled the mixing proportion of red, green and blue by PWM; simulated the shades with the needed wavelength by RGB
-- Programmed a C software to set the built-in timer of C51 single-chip microcomputer to send the interrupt signal after time-up and to control the IO interface to output PWM wave according to the required ratio
-
-## About
-
-### Personal Info
-- +1 (323) 301-3957
-- [i@peterjiang.me](mailto:i@peterjiang.me)
-- [PeterJiang.me](https://www.peterjiang.me) 
+- Programmed a C software to set the built-in timer of C51 single-chip microcomputer to send the interrupt signal after time-up and to control the IO interface to output PWM wave according to the required ratio 

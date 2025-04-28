@@ -1,9 +1,8 @@
 ---
 title: "Resume"
-description: "Peter Jiang's Resume"
+# description: "Peter Jiang's Resume"
 ---
 
-# Resume
 
 ## Education
 
