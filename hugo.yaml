@@ -41,6 +41,8 @@ params:
       url: "https://www.linkedin.com/in/peterjiangsde"
     - name: "github"
       url: "https://github.com/geniuspeterjiang"
+    - name: "other"
+      url: "https://futurekind.peterjiang.me"
 
   fuseOpts:
     isCaseSensitive: false
